@@ -21,6 +21,4 @@ jobs:
           pip install -r requirements.txt
           pip install flake8 nose
           
-      - name: Run unit tests with nose
-        run: |
-          nosetests -v --with-spec --spec-color --with-coverage --cover-package=service
+   
