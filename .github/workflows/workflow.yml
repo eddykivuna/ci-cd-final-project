@@ -12,7 +12,7 @@ jobs:
     container: python:3.9-slim
 
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v3
 
       - name: Install dependencies
